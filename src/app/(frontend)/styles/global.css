@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Public Sans', sans-serif;
+  --font-display: 'Syne';
+
+  --color-sandstorm-yellow: #F4D738;
+  --color-turquoise-green: #B5D2AD;
+  --color-orange-red: #FF4911;
+  --color-hot-pink: #FF69B4;
+  --color-tropical-indigo: #A388EE;
+
+  --color-background: #08001e;
+  --color-foreground: #ededed;
+
+  --color-wheat: #fef8e3;
+}
+
+:root {
+  --color-background: #FFFFFF;
+  --color-foreground: #F4D738;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #FFFFFF;
+    --color-foreground: #F4D738;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--color-foreground);
+  background: var(--color-background);
+  font-family: var(--font-sans);
+}
