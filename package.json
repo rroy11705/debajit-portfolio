@@ -15,33 +15,32 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },
   "dependencies": {
-    "@payloadcms/db-mongodb": "3.33.0",
-    "@payloadcms/next": "3.33.0",
-    "@payloadcms/payload-cloud": "3.33.0",
-    "@payloadcms/richtext-lexical": "3.33.0",
-    "@payloadcms/storage-vercel-blob": "^3.44.0",
-    "@tailwindcss/postcss": "^4.1.5",
+    "@payloadcms/db-mongodb": "3.31.0",
+    "@payloadcms/next": "3.31.0",
+    "@payloadcms/richtext-lexical": "3.31.0",
+    "@payloadcms/storage-vercel-blob": "3.31.0",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",
     "lucide-react": "^0.525.0",
     "next": "15.3.0",
-    "payload": "3.33.0",
+    "payload": "3.31.0",
     "postcss": "^8.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-player": "^2.16.0",
-    "sharp": "0.32.6",
-    "tailwindcss": "^4.1.5"
+    "sharp": "0.32.6"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
+    "@tailwindcss/postcss": "^4.1.5",
     "@types/node": "^22.5.4",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.2",
     "eslint": "^9.16.0",
     "eslint-config-next": "15.3.0",
     "prettier": "^3.4.2",
-    "typescript": "5.7.3"
+    "typescript": "5.7.3",
+    "tailwindcss": "^4.1.5"
   },
   "engines": {
     "node": "^18.20.2 || >=20.9.0"
